@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n,i
+
+		
+
+		para(i=0 ; i < 500 ; i+=3){
+		
+			se(i % 2 == 1){	
+			
+			escreva("\nContagem somente de impares de 1 até 500 por multiplos de 3: ",i)}
+
+			
+		}
+	}
+}

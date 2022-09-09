@@ -1,0 +1,46 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*	
+		 *  Variáveis
+		 */
+			
+		real s=0.0,st=0.0,ms=0.0,n1,nt=0.0,media,mf=0.0, salariomaior=0.0, percentual=0.0
+		inteiro i
+
+		//processamento
+
+		para(i = 0 ; i < 5 ; i ++){
+			escreva("\nColoque o seu salário: ")
+			leia(s)
+			st= st + s
+			ms= st/5
+
+			escreva("\nColoque a sua quantidade de filhos: ")
+			leia(n1)
+			nt= nt + n1
+			mf = nt/5
+	
+		se(s > salariomaior){
+			salariomaior = s}
+
+		se(s<=1000){
+				percentual ++ }
+		
+							}
+
+		// Saída de dados
+		
+			escreva("\nMédia salarial da população: ",ms,"R$")
+			escreva("\nMédia de filhos da população: ", mf)
+			escreva("\nMaior salário: ",salariomaior,"R$")
+			escreva("\nPessoas com o salário até mil reais: ",(percentual * 1.0 ) / 5 * 100)
+
+						
+	}
+							
+						
+	
+}
